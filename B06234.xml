@@ -1,0 +1,961 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A true list of the French fleet for the year 1692. Commanded by the Count de Tourville, consisting of two squadrons, the blue and the white, with the number of men and guns. From the copy printed at Paris, by the French king's order.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1692</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 17 KB of XML-encoded text transcribed from 2 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B06234</idno>
+            <idno type="STC">Wing T2724</idno>
+            <idno type="STC">ESTC R226527</idno>
+            <idno type="EEBO-CITATION">53981589</idno>
+            <idno type="OCLC">ocm 53981589</idno>
+            <idno type="VID">180399</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B06234)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 180399)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2827:28)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A true list of the French fleet for the year 1692. Commanded by the Count de Tourville, consisting of two squadrons, the blue and the white, with the number of men and guns. From the copy printed at Paris, by the French king's order.</title>
+               </titleStmt>
+               <extent>1 sheet ([2] p.)   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Richard Baldwin near the Oxford Arms in Warwick-lane,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1692.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Imprint from colophon.</note>
+                  <note>Reproduction of the original in the University of Illinois Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Tourville, Anne-Hilarion de Cotentin, --  comte de, 1642-1701.</term>
+               <term>France. --  Marine --  Early works to 1800.</term>
+               <term>Ship registers --  France --  Early works to 1800.</term>
+               <term>Grand Alliance, War of the, 1689-1697 --  Naval operations --  Early works to 1800.</term>
+               <term>Broadsides --  England --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2014-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2014-02</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2014-02</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb facs="tcp:180399:1"/>
+            <head>A TRUE LIST OF THE FRENCH-FLEET For the YEAR 1692. Commanded by the Count <hi>de Tourville,</hi> conſiſting of Two Squadrons, the <hi>Blue</hi> and the <hi>White,</hi> with the Number of Men and Guns.</head>
+            <head>From the Copy Printed at <hi>Paris,</hi> by the French King's Order.</head>
+            <floatingText type="license" xml:lang="eng">
+               <body>
+                  <p>
+                     <hi>Licenſed and Entered according to Order.</hi> Avant garde commandèe par Monſieur de Chaſteau-Renaut.</p>
+               </body>
+            </floatingText>
+            <p>
+               <table>
+                  <head>The Avant Guard commanded by Monſieur <hi>de Chaſteau Renaut.</hi>
+                  </head>
+                  <row>
+                     <cell role="label">Noms des Capitaines.</cell>
+                     <cell role="label">
+                        <hi>Ships Names French.</hi>
+                     </cell>
+                     <cell role="label">Ships Names Engliſh.</cell>
+                     <cell role="label">Guns</cell>
+                     <cell role="label">Men</cell>
+                  </row>
+                  <row>
+                     <cell>Mr. Chev. Château Renaut</cell>
+                     <cell>LE Formidable</cell>
+                     <cell>
+                        <hi>THE Formidable</hi>
+                     </cell>
+                     <cell>94</cell>
+                     <cell>650</cell>
+                  </row>
+                  <row>
+                     <cell>Mr. le Comte de Relingue</cell>
+                     <cell>Le Foudroyant</cell>
+                     <cell>
+                        <hi>The Thunderer</hi>
+                     </cell>
+                     <cell>84</cell>
+                     <cell>600</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Chev. d' Amfreville</cell>
+                     <cell>Le St. Philippe.</cell>
+                     <cell>
+                        <hi>The S. Philip</hi>
+                     </cell>
+                     <cell>84</cell>
+                     <cell>550</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de Coëtlogon</cell>
+                     <cell>Le Magnificque</cell>
+                     <cell>
+                        <hi>The Magnificent</hi>
+                     </cell>
+                     <cell>76</cell>
+                     <cell>550</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur Gabaret</cell>
+                     <cell>L' Orgueilleux</cell>
+                     <cell>
+                        <hi>The Proud</hi>
+                     </cell>
+                     <cell>90</cell>
+                     <cell>650</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur du Maignon</cell>
+                     <cell>Le Conquerant</cell>
+                     <cell>
+                        <hi>The Conquerant</hi>
+                     </cell>
+                     <cell>84</cell>
+                     <cell>550</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur d' Alteloire</cell>
+                     <cell>Le Fier</cell>
+                     <cell>
+                        <hi>The Fierce</hi>
+                     </cell>
+                     <cell>76</cell>
+                     <cell>490</cell>
+                  </row>
+                  <row>
+                     <cell>Monſi. le Ch. de Belle Fontaine</cell>
+                     <cell>Le Belliqueux</cell>
+                     <cell>
+                        <hi>The Warrior</hi>
+                     </cell>
+                     <cell>76</cell>
+                     <cell>490</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de Septe Ville</cell>
+                     <cell>Le Terrible</cell>
+                     <cell>
+                        <hi>The Terrible</hi>
+                     </cell>
+                     <cell>76</cell>
+                     <cell>490</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de Bellile Ecard</cell>
+                     <cell>Le Floriſſant</cell>
+                     <cell>
+                        <hi>The Flouriſher</hi>
+                     </cell>
+                     <cell>84</cell>
+                     <cell>490</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de Septemes</cell>
+                     <cell>Le Tormant</cell>
+                     <cell>
+                        <hi>The Torment</hi>
+                     </cell>
+                     <cell>76</cell>
+                     <cell>490</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur Manchot d' Ablemont</cell>
+                     <cell>Le Triomphant</cell>
+                     <cell>
+                        <hi>The Triumphant</hi>
+                     </cell>
+                     <cell>76</cell>
+                     <cell>490</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Chev. de Monbron</cell>
+                     <cell>La Couronne</cell>
+                     <cell>
+                        <hi>The Crown</hi>
+                     </cell>
+                     <cell>76</cell>
+                     <cell>490</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur Daligre</cell>
+                     <cell>Le Pompeux</cell>
+                     <cell>
+                        <hi>The Pompous</hi>
+                     </cell>
+                     <cell>74</cell>
+                     <cell>450</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Chev. d' Anfreville</cell>
+                     <cell>Le Gaillard</cell>
+                     <cell>
+                        <hi>The Gay</hi>
+                     </cell>
+                     <cell>68</cell>
+                     <cell>400</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Chev. de S. Maure</cell>
+                     <cell>Le Contant</cell>
+                     <cell>
+                        <hi>The Content</hi>
+                     </cell>
+                     <cell>64</cell>
+                     <cell>380</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur Ch. de Châteaumorant</cell>
+                     <cell>Le Glorieux</cell>
+                     <cell>
+                        <hi>The Glorious</hi>
+                     </cell>
+                     <cell>64</cell>
+                     <cell>380</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Marquis Deblenac</cell>
+                     <cell>Le Serieux</cell>
+                     <cell>
+                        <hi>The Serious</hi>
+                     </cell>
+                     <cell>64</cell>
+                     <cell>380</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur Demericourt</cell>
+                     <cell>L' Ecueil</cell>
+                     <cell>
+                        <hi>The Shelf</hi>
+                     </cell>
+                     <cell>64</cell>
+                     <cell>380</cell>
+                  </row>
+                  <row>
+                     <cell>Monſi le Chevalier Deſcombes</cell>
+                     <cell>Le Brillant</cell>
+                     <cell>
+                        <hi>The Gliſtring</hi>
+                     </cell>
+                     <cell>66</cell>
+                     <cell>370</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de Socquigny</cell>
+                     <cell>Le Furieux</cell>
+                     <cell>
+                        <hi>The Furious</hi>
+                     </cell>
+                     <cell>60</cell>
+                     <cell>350</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur Chev. de la Rougere</cell>
+                     <cell>Le Fort</cell>
+                     <cell>
+                        <hi>The Strong</hi>
+                     </cell>
+                     <cell>60</cell>
+                     <cell>350</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Chev. de Vilars</cell>
+                     <cell>St. Michael</cell>
+                     <cell>
+                        <hi>The St. Michael</hi>
+                     </cell>
+                     <cell>60</cell>
+                     <cell>350</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Chev. d' Arbonville</cell>
+                     <cell>L' Agreable</cell>
+                     <cell>
+                        <hi>The Agreeable</hi>
+                     </cell>
+                     <cell>60</cell>
+                     <cell>350</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Chev. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>e Fecquieres</cell>
+                     <cell>Le Diamant</cell>
+                     <cell>
+                        <hi>The Diamond</hi>
+                     </cell>
+                     <cell>60</cell>
+                     <cell>350</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de Sevigny</cell>
+                     <cell>L'Entreprenant</cell>
+                     <cell>
+                        <hi>The Undertaker</hi>
+                     </cell>
+                     <cell>58</cell>
+                     <cell>350</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>8 Brulots.</cell>
+                     <cell>8 <hi>Fire-Ships</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>300</cell>
+                  </row>
+               </table>
+            </p>
+            <p>
+               <table>
+                  <head>Arriere Garde Commandèe par Monſieur d' Amfreville.</head>
+                  <head>The Rear Guard commanded by Monſieur <hi>d'Anfreville.</hi>
+                  </head>
+                  <row>
+                     <cell role="label">Noms des Capitaines.</cell>
+                     <cell role="label">
+                        <hi>Ships Names French.</hi>
+                     </cell>
+                     <cell role="label">Ships Names Engliſh.</cell>
+                     <cell role="label">Guns</cell>
+                     <cell role="label">Men.</cell>
+                  </row>
+                  <row>
+                     <cell>Mr. le Marq. d'Anfreville</cell>
+                     <cell>LE Merveilleux</cell>
+                     <cell>
+                        <hi>THE Marvellous</hi>
+                     </cell>
+                     <cell>94</cell>
+                     <cell>650</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de Beaujeu</cell>
+                     <cell>L'Admirable</cell>
+                     <cell>
+                        <hi>The Admirable</hi>
+                     </cell>
+                     <cell>90</cell>
+                     <cell>650</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur du Hoſelart</cell>
+                     <cell>Le Vainqueur</cell>
+                     <cell>
+                        <hi>The Conqueror</hi>
+                     </cell>
+                     <cell>84</cell>
+                     <cell>500</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Chev. du Chalais</cell>
+                     <cell>Le Brave</cell>
+                     <cell>
+                        <hi>The Brave</hi>
+                     </cell>
+                     <cell>60</cell>
+                     <cell>350</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de Serville</cell>
+                     <cell>Le Sans Pareil</cell>
+                     <cell>
+                        <hi>The None-ſuch</hi>
+                     </cell>
+                     <cell>60</cell>
+                     <cell>350</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de Champigny</cell>
+                     <cell>Le Juſte</cell>
+                     <cell>
+                        <hi>The Juſt</hi>
+                     </cell>
+                     <cell>64</cell>
+                     <cell>350</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur Dericourt</cell>
+                     <cell>L'Entendu</cell>
+                     <cell>
+                        <hi>The Skilfull</hi>
+                     </cell>
+                     <cell>60</cell>
+                     <cell>350</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Chev. de Sangere</cell>
+                     <cell>Le Maure</cell>
+                     <cell>
+                        <hi>The Moor</hi>
+                     </cell>
+                     <cell>52</cell>
+                     <cell>300</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de Very</cell>
+                     <cell>Le Moderé</cell>
+                     <cell>
+                        <hi>The Moderate</hi>
+                     </cell>
+                     <cell>5z</cell>
+                     <cell>300</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Cheval de Fourbin</cell>
+                     <cell>La Perle</cell>
+                     <cell>
+                        <hi>The Pearl</hi>
+                     </cell>
+                     <cell>56</cell>
+                     <cell>300</cell>
+                  </row>
+                  <row>
+                     <cell>Monſi. le Chev. de Rougemont</cell>
+                     <cell>L'Heureux retour</cell>
+                     <cell>
+                        <hi>The Happy Return</hi>
+                     </cell>
+                     <cell>52</cell>
+                     <cell>300</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur Debellaire</cell>
+                     <cell>Le Fidele</cell>
+                     <cell>
+                        <hi>The Faithful</hi>
+                     </cell>
+                     <cell>48</cell>
+                     <cell>280</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>Le Fendant aux Illes</cell>
+                     <cell>
+                        <hi>The Tearer of the Iſles</hi>
+                     </cell>
+                     <cell>54</cell>
+                     <cell>330</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>Le Trident aux Illes</cell>
+                     <cell>
+                        <hi>The Trident to the Iſles</hi>
+                     </cell>
+                     <cell>52</cell>
+                     <cell>300</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>Le Francois</cell>
+                     <cell>
+                        <hi>The French man</hi>
+                     </cell>
+                     <cell>52</cell>
+                     <cell>280</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>Le Prompt</cell>
+                     <cell>
+                        <hi>The Ready</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>400</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>Le Comte</cell>
+                     <cell>
+                        <hi>The Count</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>200</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>L'Alcion</cell>
+                     <cell>
+                        <hi>The Halcion</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>200</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>Le Tygre</cell>
+                     <cell>
+                        <hi>The Tyger</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>150</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>Le Jeu</cell>
+                     <cell>
+                        <hi>The Game</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>150</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>Le Neptune</cell>
+                     <cell>
+                        <hi>The Neptune</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>280</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>L'Hercule</cell>
+                     <cell>
+                        <hi>The Hercules</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>130</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>8 Brulots.</cell>
+                     <cell>8 <hi>Fire-ſhips</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>300</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>Vingt-ſix Fregattes</cell>
+                     <cell>26 <hi>Fr<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>gats</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>2650</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>Vingt-ſix Fluſts</cell>
+                     <cell>26 <hi>P<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                              <desc>••</desc>
+                           </gap>ks</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>1040</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>Quatorze Barques</cell>
+                     <cell>14 <hi>Long Boats</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>800</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>Longues</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>Faiſant le tout enſem<g ref="char:EOLhyphen"/>ble quatre vingt dix ſept Vaiſſeaux avec les Brûlots.</cell>
+                     <cell>
+                        <hi>Making in all</hi> 97 <hi>Ships with the Fire-ſhips</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <pb facs="tcp:180399:2"/>
+                  <row>
+                     <cell> </cell>
+                     <cell>En Hommes 40299 Sans Comprendre Meſſieurs les Offici<g ref="char:EOLhyphen"/>ers.</cell>
+                     <cell>
+                        <hi>In Men without reckoning the Officers</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>40299</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>En Canons des Vaiſ<g ref="char:EOLhyphen"/>ſeaux de ligue</cell>
+                     <cell>
+                        <hi>Guns in the Ships</hi>
+                     </cell>
+                     <cell>5019</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>En Canon des Brûlots</cell>
+                     <cell>
+                        <hi>Guns in the Fire ſhips</hi>
+                     </cell>
+                     <cell>162</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>En Canon des Barques longes</cell>
+                     <cell>
+                        <hi>Guns in the Long-Boats</hi>
+                     </cell>
+                     <cell>240</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>Toute l' Armée eſt Compoſee de 163 voiles, non Compri<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> les traverſieres</cell>
+                     <cell>
+                        <hi>The whole Fleet conſiſts of</hi> 163 <hi>Ships, not inclu<g ref="char:EOLhyphen"/>ding thoſe that have Sails and Oars.</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+               </table>
+            </p>
+            <p>
+               <table>
+                  <head>Eſcadre Blanche Corps de Bataille.</head>
+                  <head>The White Squadron, the Line of Battle.</head>
+                  <row>
+                     <cell role="label">Noms des Capitaines.</cell>
+                     <cell role="label">
+                        <hi>Ships Names French.</hi>
+                     </cell>
+                     <cell role="label">Ships Names Engliſh.</cell>
+                     <cell role="label">Guns</cell>
+                     <cell role="label">Men.</cell>
+                  </row>
+                  <row>
+                     <cell>Mr. de Tourville Admiral</cell>
+                     <cell>LE Soleil Royal</cell>
+                     <cell>
+                        <hi>THE Royal Sun</hi>
+                     </cell>
+                     <cell>106</cell>
+                     <cell>900</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur Forant</cell>
+                     <cell>Le Daufin Royal</cell>
+                     <cell>
+                        <hi>The Royal Dauphin</hi>
+                     </cell>
+                     <cell>100</cell>
+                     <cell>750</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de Nemond</cell>
+                     <cell>Le Monarque</cell>
+                     <cell>
+                        <hi>The Monarch</hi>
+                     </cell>
+                     <cell>90</cell>
+                     <cell>650</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur Panetir</cell>
+                     <cell>Le Grand</cell>
+                     <cell>
+                        <hi>Le Grand</hi>
+                     </cell>
+                     <cell>86</cell>
+                     <cell>630</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Marq. de Langeron</cell>
+                     <cell>Le Souverain</cell>
+                     <cell>
+                        <hi>The Soveraign</hi>
+                     </cell>
+                     <cell>84</cell>
+                     <cell>560</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur d'Amblemont</cell>
+                     <cell>Le Victorieux</cell>
+                     <cell>
+                        <hi>The Victorious</hi>
+                     </cell>
+                     <cell>92</cell>
+                     <cell>700</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Marquis de la Porte</cell>
+                     <cell>Le Fulminant</cell>
+                     <cell>
+                        <hi>The Thunderer</hi>
+                     </cell>
+                     <cell>96</cell>
+                     <cell>550</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Marquis de la Villette</cell>
+                     <cell>L'Ambitieux</cell>
+                     <cell>
+                        <hi>The Ambitious</hi>
+                     </cell>
+                     <cell>96</cell>
+                     <cell>550</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Marq. de S. Hermine</cell>
+                     <cell>L'Intrepide</cell>
+                     <cell>
+                        <hi>The Undaunted</hi>
+                     </cell>
+                     <cell>84</cell>
+                     <cell>530</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de la Galiſonniere</cell>
+                     <cell>Le S. Eſprit</cell>
+                     <cell>
+                        <hi>The Holy Ghoſt</hi>
+                     </cell>
+                     <cell>74</cell>
+                     <cell>450</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur Deſcombes</cell>
+                     <cell>Le Illuſtre</cell>
+                     <cell>
+                        <hi>The Illuſtrious</hi>
+                     </cell>
+                     <cell>70</cell>
+                     <cell>450</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de Reales</cell>
+                     <cell>L'Aymiable</cell>
+                     <cell>
+                        <hi>The Amiable</hi>
+                     </cell>
+                     <cell>68</cell>
+                     <cell>420</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de la Rochealar</cell>
+                     <cell>Le Henry</cell>
+                     <cell>
+                        <hi>The Henry</hi>
+                     </cell>
+                     <cell>64</cell>
+                     <cell>400</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de Colbert St. Marc.</cell>
+                     <cell>Le Courtiſan</cell>
+                     <cell>
+                        <hi>The Courtiſan</hi>
+                     </cell>
+                     <cell>64</cell>
+                     <cell>380</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de Perrinet</cell>
+                     <cell>Le Bourbon</cell>
+                     <cell>
+                        <hi>The Bourbon</hi>
+                     </cell>
+                     <cell>64</cell>
+                     <cell>380</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur du Queſne Guidon</cell>
+                     <cell>La Siraine</cell>
+                     <cell>
+                        <hi>The Mairmaid</hi>
+                     </cell>
+                     <cell>60</cell>
+                     <cell>380</cell>
+                  </row>
+                  <row>
+                     <cell>Monſi. le Cheval. de la Luzeone</cell>
+                     <cell>Le Courageux</cell>
+                     <cell>
+                        <hi>The Couragious</hi>
+                     </cell>
+                     <cell>58</cell>
+                     <cell>350</cell>
+                  </row>
+                  <row>
+                     <cell>Monſ. le Cheval. de Chateaureneau</cell>
+                     <cell>L'Aſſure</cell>
+                     <cell>
+                        <hi>The Confident</hi>
+                     </cell>
+                     <cell>60</cell>
+                     <cell>350</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Marquis de Rouvroy</cell>
+                     <cell>L'Apollon</cell>
+                     <cell>
+                        <hi>The Apollo</hi>
+                     </cell>
+                     <cell>60</cell>
+                     <cell>350</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de la Roche Parcin</cell>
+                     <cell>Le S. Louis</cell>
+                     <cell>
+                        <hi>The St. Lewis</hi>
+                     </cell>
+                     <cell>60</cell>
+                     <cell>350</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur du Rivant Huet</cell>
+                     <cell>L'Excellent</cell>
+                     <cell>
+                        <hi>The Excellent</hi>
+                     </cell>
+                     <cell>60</cell>
+                     <cell>350</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de la Vigerie</cell>
+                     <cell>L'Arrogant</cell>
+                     <cell>
+                        <hi>The Arrogant</hi>
+                     </cell>
+                     <cell>60</cell>
+                     <cell>350</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur de Bagneux</cell>
+                     <cell>Le Prince</cell>
+                     <cell>
+                        <hi>The Prince</hi>
+                     </cell>
+                     <cell>60</cell>
+                     <cell>330</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur Omougon</cell>
+                     <cell>Le Fleuron</cell>
+                     <cell>
+                        <hi>The Bloſſom</hi>
+                     </cell>
+                     <cell>58</cell>
+                     <cell>330</cell>
+                  </row>
+                  <row>
+                     <cell>Monſieur le Chevalier du Palais</cell>
+                     <cell>Le Temeraire</cell>
+                     <cell>
+                        <hi>The Raſh</hi>
+                     </cell>
+                     <cell>54</cell>
+                     <cell>330</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>8 Brulots</cell>
+                     <cell>8 <hi>Fire-Ships</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>300</cell>
+                  </row>
+               </table>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <head>ADVERTISEMENT.</head>
+            <p>STate Tracts: Being a farther Collection of ſeveral Choice Treati<g ref="char:EOLhyphen"/>ſes relating to the Government. From the Year 1660, to 1689. Now Publiſhed in a Body, to ſhew the Neceſſity, and clear the Lega<g ref="char:EOLhyphen"/>lity of the Late <hi>Revolution,</hi> and our preſent happy Settlement, under the Auſpicious Reign of Their Majeſties, King <hi>William</hi> and Queen <hi>Mary.</hi>
+            </p>
+            <p>Truth brought to Light: Or, the Hiſtory of the Firſt 14 years of King <hi>James</hi> I. In Four Parts. I. The happy State of <hi>England</hi> at His Majeſty's Entrance; The Corruption of it afterwards. With the Riſe of particular Favourites, and the Diviſions between this and other States abroad. II. The Divorce betwixt the Lady <hi>Frances Howard</hi> and <hi>Robert</hi> Earl of <hi>Eſſex,</hi> before the King's Delegates, authorized under the King's Broad-Seal: As alſo the Arraignment of Sir <hi>Jer. Ellis,</hi> Lieutenant of the <hi>Tower, &amp;c.</hi> about the Murther of Sir <hi>Tho. Overbury,</hi> with all Proceedings thereupon, and the King's gracious Pardon and Favor to the Counteſs. III. A Declaration of his Majeſty's Revenue ſince he came to the Crown of <hi>England;</hi> with the Annual Iſſues, Gifts, Penſions, and extraordinary Diſ<g ref="char:EOLhyphen"/>burſements. IV. The Commiſſions and Warrants for the burning of two Hereticks, newly revived, with two Pardons, one for <hi>Theophilus Hig<g ref="char:EOLhyphen"/>gins,</hi> the other for Sir <hi>Euſtace Hart.</hi> Both Printed for <hi>Richard Baldwin.</hi>
+            </p>
+         </div>
+         <div type="colophon">
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Richard Baldwin</hi> near the <hi>Oxford</hi> Arms in <hi>Warwick-Lane,</hi> 1692.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
